@@ -1,0 +1,29 @@
+{
+  "name": "machinepack-firestore",
+  "version": "0.0.0",
+  "description": "Structured Node.js bindings for Firebase Cloud Firestore.",
+  "scripts": {
+    "test": "node ./node_modules/test-machinepack-mocha/bin/testmachinepack-mocha.js"
+  },
+  "keywords": [
+    "Firebase",
+    "Firestore",
+    "machines",
+    "machinepack"
+  ],
+  "author": "Joao Paulo Fernandes Ventura",
+  "license": "MIT",
+  "dependencies": {
+    "machine": "^12.2.5"
+  },
+  "devDependencies": {
+    "test-machinepack-mocha": "^2.1.5"
+  },
+  "machinepack": {
+    "friendlyName": "Firestore",
+    "machineDir": "machines/",
+    "machines": [
+      "say-hello"
+    ]
+  }
+}
